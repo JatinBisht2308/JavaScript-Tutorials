@@ -2,4 +2,4 @@
 var fun = (argument) => {
     console.log(argument);
 }
-fun("hi brither")
+fun("hi brother")

@@ -12,4 +12,12 @@ var user = {
 
 // first way to access the value from the object is using the dot notation
 console.log(user.firstName);
-console.log();
+// another way to access the value from the object is using the square brackets notation
+console.log(user["firstName"]);
+
+// you can change the value form outside the object
+
+user.loginCount = 100;
+console.log(user.loginCount);
+// using the .table functon or key
+console.table(user);

@@ -7,4 +7,5 @@ console.log(x);
 {
     var z = 1000;
 }
+// it will print the value 1000 becuase var have global scope value
 console.log(z);

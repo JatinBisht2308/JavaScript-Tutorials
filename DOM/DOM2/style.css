@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.color-hover > .color{
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;  
+}
+.red{
+    background-color: red;
+}
+.cyan{
+    background-color: cyan;
+}
+.violet{
+    background-color: violet;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: rgb(249, 102, 127);
+}
+.color-hover{
+    margin-top: 39%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.center{
+    height: 15rem;
+    width: 15rem;
+    background-color:rgb(0, 0, 0);
+    border-radius:50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-left: 15.5rem;
+    margin-top: 50px;
+}

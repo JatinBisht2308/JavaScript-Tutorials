@@ -41,3 +41,7 @@ console.log(array4===array2);
 //  if you want to add more items in the clone array while cloning then ->
 let array5 = [...array4,"item4","item5"];
 console.log(array5);
+let array6 = ["item4","item5"];
+console.log("Concating 2 clone array using spread operator->");
+let array7 = [...array2,...array6];
+console.log(array7);

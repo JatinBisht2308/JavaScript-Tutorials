@@ -2,16 +2,19 @@
 let sumPromise = new Promise((resolve, reject) => {
    resolve("jatin")
 })
-sumPromise.then(function(firstname){
+.then(function(firstname){
     console.log("firstname is " + firstname);
-    let full = firstname+" bisht";
-    return full;
+   return new Promise((resolve, reject) => {
+       resolve(firstname+" bisht")
+   })
 })
-sumPromise.then(function(fullname){
+.then(function(fullname){
    console.log("fullname is " + fullname);
-   return "Name is submitted";
+   return new Promise((resolve, reject) => {
+    resolve("Name is submitted")
 })
-sumPromise.then(function(whatnext)
+})
+.then(function(whatnext)
 {
     console.log(whatnext);
 });

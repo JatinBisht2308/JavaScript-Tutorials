@@ -17,6 +17,7 @@ let takeOrder = (order) => {
 let makeCoffee = (order,gender) => {
     // once the order is placed then we cannot reject it because it will pay us
     return new Promise( (resolve) => {
+        console.log("Banri ha ek min han");
         if(gender=="female")
         {
             resolve("Here's your coffee mam")

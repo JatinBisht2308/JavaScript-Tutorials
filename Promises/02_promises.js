@@ -1,16 +1,16 @@
 // promises chaining
 let sumPromise = new Promise((resolve, reject) => {
-    return "jatin"
+    return "jatin";
 })
-.then(function(firstname){
+sumPromise.then(function(firstname){
     console.log("firstname is " + firstname);
     return firstname+"bisht";
 })
-.then(function(fullname){
+sumPromise.then(function(fullname){
    console.log("fullname is " + fullname);
    return "Name is submitted";
 })
-.then(function(whatnext)
+sumPromise.then(function(whatnext)
 {
     console.log(whatnext);
 });

@@ -32,6 +32,10 @@ let makeCoffee = (order,gender) => {
 takeOrder('coffee').then((oderState)=> {
       console.log(oderState);
     //  returning that promise to the another object(object because promises are objects)
-      
-    }
-)
+      let banaCoffee = makeCoffee('coffee');
+      return banaCoffee;
+    }).then(function (orderDone){
+        console.log(orderDone);
+    }).catch(function (err){
+        console.log(err);
+    })

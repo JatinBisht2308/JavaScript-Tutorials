@@ -19,3 +19,7 @@ jatin.splice(1,3);
 console.log(jatin);
 console.log(jatin.join());
 console.log(jatin.toString());
+
+// homework for all
+console.log(typeof jatin);
+// Arrays V/S Objects in JavaScript

@@ -8,4 +8,5 @@
 
 // The below files are having the below contents and the order also at the end of the line
 
-// impvsdec -> imperative v/s declarative functions [1]
+// impvsdec.js -> imperative v/s declarative functions [1]
+//  pure.js -> impire v/s pure functions(suggested why?) [2]

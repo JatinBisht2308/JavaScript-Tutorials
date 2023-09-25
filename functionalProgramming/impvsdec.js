@@ -12,6 +12,6 @@ if (numSquared % 2 == 0) {
 }
 console.log(isEven);
 
-//  Declrative Way
+//  Declrative Way is short simple and clean it focuses only on the result a developer wanted not the step by step procedure to solve a particular problem.
 const isSquare = (x) => ((x * x) % 2 === 0 ? true : false);
 console.log(isSquare(4));

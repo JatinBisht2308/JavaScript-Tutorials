@@ -14,6 +14,13 @@ function add(){
     function addChild(){
         console.log(a + 5);
     }
-    addChild();
+     return addChild;
 }
-add();
+// now lets see that if we return the function addChild from the function add then still we get value of a inside the child function as the add function is already returned and it is removed from the stack.
+let catchAdd = add();
+// catch add has the child function addChild
+console.log(catchAdd);
+// now lets run the cathchAdd function and check whether we can acess the a variable still or not
+catchAdd();
+// here you can see we can still have the access of the parent variable after returning the parent function also.
+// A function is always bundled with its lexical scope i.e it always has the access of its lexical variables this behaviour of js is called a closure.

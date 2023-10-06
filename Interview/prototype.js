@@ -20,3 +20,18 @@ let ans = arr.myMap((item) =>{
   return item * item;
 });
 console.log(ans);
+
+// myFilter
+Array.prototype.myFilter = function(cb){
+  let filteredArray = [];
+  for(let i=0;i<this.length;i++){
+     if(cb(this[i])){
+        filteredArray.push(this[i]);
+     }
+  }
+  return filteredArray;
+}
+let ansArray = arr.myFilter((item) =>{
+    return item%2==0;
+});
+console.log(ansArray);
